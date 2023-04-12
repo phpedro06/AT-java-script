@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+
+::-webkit-scrollbar-thumb {
+  background-color: #006aff;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: #111;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  user-select: none;
+  color: rgb(224, 224, 224);
+  scroll-behavior: smooth;
+}
+
+/* fundo */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+}
+
+/* titulo */
+
+h1 {
+  font-size: 1.4rem;
+  color: #0066ff;
+  filter: drop-shadow(0px 0px 10px #0066ff92);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* lista */
+
+ul {
+  margin: 1%;
+}
+
+li {
+  font-weight: 600;
+  margin: 0.5%;
+}
+
+/* button */
+
+button {
+  padding: 10px;
+  background-color: #0066ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  filter: drop-shadow(0px 0px 5px #0066ff92);
+}
+
+/* extras */
+
+span {
+  color: #0066ff;
+  filter: drop-shadow(0px 0px 10px #0066ff92);
+}
+
+.mrg {
+  margin: 0.5%;
+}
