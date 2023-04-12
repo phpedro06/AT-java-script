@@ -1,2 +1,2 @@
 # Uma especie de akinator em JS
-Atividade escolar sobre JavaScript, if e else, projeto simples mas interessante
+O codigo contem uso de if, else e um pouco de html e css, todos com proposito apenas de aprendizado
